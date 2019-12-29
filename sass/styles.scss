@@ -1,0 +1,59 @@
+// Variables
+$theme-colors: (
+  "primary": #28afb0,
+  "dark": #37392e,
+  "light": #f2f7f2,
+  "danger": #cf5c36,
+  "success": #7dd181
+);
+
+// All Custom Imports
+
+@import "variables";
+@import "utilities";
+// Boostrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Customization
+
+::selection {
+  background: map-get($theme-colors, "primary");
+  color: map-get($theme-colors, "light");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: map-get($theme-colors, primary);
+}
+
+a:hover {
+  text-decoration: none;
+  color: darken(map-get($theme-colors, primary), 20%);
+}
+
+body {
+  font-size: 1rem;
+}
+
+section.section-a {
+  background: url(../img/cover.jpg) no-repeat center center / cover;
+  height: 400px;
+  color: #fff;
+  position: relative;
+}
+
+section.section-b {
+  .fas {
+    color: lighten(map-get($theme-colors, primary), 35%);
+    font-size: 4rem;
+  }
+
+  .col-md-4.col-lg-4.col-sm-12.col-xs-12 {
+    padding: 2rem 0;
+  }
+}

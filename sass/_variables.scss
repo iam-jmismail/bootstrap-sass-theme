@@ -1,0 +1,13 @@
+// Navbar
+$navbar-padding-y: 0.25rem !default;
+$navbar-dark-color: map-get($theme-colors, light) !default;
+// Navbar Hover
+$navbar-dark-hover-color: lighten(
+  map-get($theme-colors, primary),
+  25%
+) !default;
+// Navbar Active Colour
+$navbar-dark-active-color: lighten(
+  map-get($theme-colors, primary),
+  40%
+) !default;
