@@ -20,7 +20,7 @@
 <ul>
     <li> Responsive  </li>
     <li> Sass Customization   </li>
-    <li> Best with ReactJS using `reactstrap` libary </li>
+    <li> Best with ReactJS using ``` reactstrap``` libary </li>
 </ul>
 
 
