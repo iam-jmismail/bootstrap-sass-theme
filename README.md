@@ -23,10 +23,10 @@
     <li> Best with ReactJS using <b> reactstrap </b>libary </li>
 </ul>
 
-
 ## Customization
 
 To customize install all dependencies using
+
 ```sh
     npm install
 ```
