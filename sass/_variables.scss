@@ -11,3 +11,7 @@ $navbar-dark-active-color: lighten(
   map-get($theme-colors, primary),
   40%
 ) !default;
+
+// Table
+$table-cell-padding: 0.5rem !default;
+$table-border-width: 0.01rem !default;
