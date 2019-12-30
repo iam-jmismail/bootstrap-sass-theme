@@ -3,6 +3,8 @@
 <p> A Bootstrap Theme customised using Sass. This theme can be used for all html HTML based front-end projects
 </p>
 
+## Version 1.0
+
 ## Pages
 
 <ul>
@@ -18,12 +20,16 @@
 <ul>
     <li> Responsive  </li>
     <li> Sass Customization   </li>
-    <li> Best with ReactJS using `reactstrap` libary </li>
+    <li> Best with ReactJS using <b> reactstrap </b>libary </li>
 </ul>
+
 
 ## Customization
 
-To customize install all dependencies using `npm install`
+To customize install all dependencies using
+```sh
+    npm install
+```
 
 ## Dependencies
 
